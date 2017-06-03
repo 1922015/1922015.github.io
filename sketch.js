@@ -3,13 +3,13 @@
 //taller
 
 //var x=0;
-var rojo
-var verde
-var azul
+var rojo;
+var verde;
+var azul;
 
 
 function setup() {
-  frameRate(20)
+  frameRate(20);
 
   createCanvas(800,500) ;
   background(255,0,0);
@@ -17,9 +17,9 @@ function setup() {
 }
 
 function draw() {
-  rojo=random(0,255)
-  verde=random(0,255)
-  azul=random(0,255)
+  rojo=random(0,255);
+  verde=random(0,255);
+  azul=random(0,255);
 
   //background(255,0,0);
   //fill(100,200,100)
@@ -28,3 +28,4 @@ function draw() {
   rect(400,250,200,200);
   ellipse(mouseX,mouseY,250,250);
   //x=x+2;
+}
